@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		102158012EECCF8A000F58E3 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 102158002EECCF8A000F58E3 /* Secrets.xcconfig */; };
+		10E05B9B2EECFFFD00A91620 /* Glur in Frameworks */ = {isa = PBXBuildFile; productRef = 10E05B9A2EECFFFD00A91620 /* Glur */; };
+		10E05B9E2EED0A4200A91620 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 10E05B9D2EED0A4200A91620 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		102157EB2EECBABA000F58E3 /* starFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		102157EB2EECBABA000F58E3 /*  .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " .app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		102158002EECCF8A000F58E3 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		102157F82EECBABB000F58E3 /* Exceptions for "starFM" folder in "starFM" target */ = {
+		102157F82EECBABB000F58E3 /* Exceptions for "starFM" folder in " " target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 102157EA2EECBABA000F58E3 /* starFM */;
+			target = 102157EA2EECBABA000F58E3 /*   */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -24,7 +31,7 @@
 		102157ED2EECBABA000F58E3 /* starFM */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				102157F82EECBABB000F58E3 /* Exceptions for "starFM" folder in "starFM" target */,
+				102157F82EECBABB000F58E3 /* Exceptions for "starFM" folder in " " target */,
 			);
 			path = starFM;
 			sourceTree = "<group>";
@@ -36,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E05B9E2EED0A4200A91620 /* Kingfisher in Frameworks */,
+				10E05B9B2EECFFFD00A91620 /* Glur in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,13 +56,14 @@
 			children = (
 				102157ED2EECBABA000F58E3 /* starFM */,
 				102157EC2EECBABA000F58E3 /* Products */,
+				102158002EECCF8A000F58E3 /* Secrets.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		102157EC2EECBABA000F58E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				102157EB2EECBABA000F58E3 /* starFM.app */,
+				102157EB2EECBABA000F58E3 /*  .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		102157EA2EECBABA000F58E3 /* starFM */ = {
+		102157EA2EECBABA000F58E3 /*   */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 102157F92EECBABB000F58E3 /* Build configuration list for PBXNativeTarget "starFM" */;
+			buildConfigurationList = 102157F92EECBABB000F58E3 /* Build configuration list for PBXNativeTarget " " */;
 			buildPhases = (
 				102157E72EECBABA000F58E3 /* Sources */,
 				102157E82EECBABA000F58E3 /* Frameworks */,
@@ -76,11 +86,13 @@
 			fileSystemSynchronizedGroups = (
 				102157ED2EECBABA000F58E3 /* starFM */,
 			);
-			name = starFM;
+			name = " ";
 			packageProductDependencies = (
+				10E05B9A2EECFFFD00A91620 /* Glur */,
+				10E05B9D2EED0A4200A91620 /* Kingfisher */,
 			);
 			productName = starFM;
-			productReference = 102157EB2EECBABA000F58E3 /* starFM.app */;
+			productReference = 102157EB2EECBABA000F58E3 /*  .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,12 +119,16 @@
 			);
 			mainGroup = 102157E22EECBABA000F58E3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				10E05B992EECFFFD00A91620 /* XCRemoteSwiftPackageReference "Glur" */,
+				10E05B9C2EED0A4200A91620 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 102157EC2EECBABA000F58E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				102157EA2EECBABA000F58E3 /* starFM */,
+				102157EA2EECBABA000F58E3 /*   */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102158012EECCF8A000F58E3 /* Secrets.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +172,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -163,12 +181,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = noodlecorp.starFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -189,6 +212,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -197,17 +221,23 @@
 				PRODUCT_BUNDLE_IDENTIFIER = noodlecorp.starFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
 		102157FC2EECBABB000F58E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102158002EECCF8A000F58E3 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -272,6 +302,7 @@
 		};
 		102157FD2EECBABB000F58E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102158002EECCF8A000F58E3 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -339,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		102157F92EECBABB000F58E3 /* Build configuration list for PBXNativeTarget "starFM" */ = {
+		102157F92EECBABB000F58E3 /* Build configuration list for PBXNativeTarget " " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				102157FA2EECBABB000F58E3 /* Debug */,
@@ -349,6 +380,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10E05B992EECFFFD00A91620 /* XCRemoteSwiftPackageReference "Glur" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/Glur";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		10E05B9C2EED0A4200A91620 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		10E05B9A2EECFFFD00A91620 /* Glur */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10E05B992EECFFFD00A91620 /* XCRemoteSwiftPackageReference "Glur" */;
+			productName = Glur;
+		};
+		10E05B9D2EED0A4200A91620 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10E05B9C2EED0A4200A91620 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 102157E32EECBABA000F58E3 /* Project object */;
 }
